@@ -9,7 +9,6 @@ export default function App(props) {
   var [winner, newWinner] = useState(false);
   let winner1 = (a) => {
     newOld(`PLAYER "${a}"`);
-
     newWinner(true);
   };
   let Celebrate = () => {
