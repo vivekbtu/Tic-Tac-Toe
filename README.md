@@ -7,4 +7,4 @@
 
 ---
 # After Win
-![Win Pages](https://drive.google.com/uc?export=view&id=1JoR8YJm-I7r8tyKE-xEUeuZBnZopnPUe)
+![Win Pages](https://drive.google.com/uc?export=view&id=1fSbuSBjdIeYuVPJHPrZFu9Zn3nx06SPk)
