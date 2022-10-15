@@ -1,0 +1,38 @@
+.row1 {
+  display: flex;
+  justify-content: center;
+}
+.row2 {
+  display: flex;
+  justify-content: center;
+}
+.row3 {
+  display: flex;
+  justify-content: center;
+}
+.row1 > div {
+  border: 2px solid orange;
+  height: 130px;
+  width: 130px;
+  font-size: 100px;
+}
+.row2 > div {
+  border: 2px solid white;
+  height: 130px;
+  width: 130px;
+  font-size: 100px;
+  color: navy;
+}
+.row3 > div {
+  border: 2px solid green;
+  height: 130px;
+  width: 130px;
+  font-size: 100px;
+}
+.btn {
+  margin-top: 40px;
+  background-color: teal;
+  width: 18%;
+  /* height: 50px; */
+  font-size: 2.5vw;
+}
