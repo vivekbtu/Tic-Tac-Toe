@@ -2,9 +2,17 @@
   font-family: sans-serif;
   text-align: center;
 }
-.heading {
-  margin-top: 50px;
+.heading1 {
+  margin-top: 30px;
   font-weight: 600;
   margin-bottom: 20px;
   color: seagreen;
 }
+
+.heading2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: rgb(156, 47, 47);
+  font-variant: sans-serif;
+}
+

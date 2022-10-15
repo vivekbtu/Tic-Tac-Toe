@@ -7,7 +7,7 @@ import "./Tic.css";
 var x = Array(9).fill(null);
 
 let Tic = (props) => {
-  console.log(props);
+  // console.log(props);
   var [start, newStart] = useState(true);
   var [value, newValue] = useState("O");
   var winner = (x) => {
@@ -26,10 +26,16 @@ let Tic = (props) => {
       const [a, b, c] = lines[i];
 
       if (x[a] && x[a] === x[b] && x[a] === x[c]) {
-        console.log("winner1");
+        // console.log("winner1");
         props.winner1(x[a]);
         x.fill(null);
+
+        setTimeout(()=>{
+          restart();
+        },10000)
+        
       }
+      
     }
   };
 
@@ -60,11 +66,11 @@ let Tic = (props) => {
     x.fill(null);
     if (start === true) {
       newStart(false);
-      props.newOld("THE WINNER IS");
+      props.newOld("");
       props.newWinner(false);
     } else {
       newStart(true);
-      props.newOld("THE WINNER IS");
+      props.newOld("");
       props.newWinner(false);
     }
   };

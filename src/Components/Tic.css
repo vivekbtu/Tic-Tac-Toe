@@ -17,11 +17,11 @@
   font-size: 100px;
 }
 .row2 > div {
-  border: 2px solid white;
+  border: 2px solid rgb(187, 180, 180);
   height: 130px;
   width: 130px;
   font-size: 100px;
-  color: navy;
+  color: rgb(6, 6, 78);
 }
 .row3 > div {
   border: 2px solid green;

@@ -5,14 +5,14 @@ import Confetti from "react-confetti";
 import { useState } from "react";
 
 export default function App(props) {
-  var [old, newOld] = useState("THE WINNER IS ");
+  var [old, newOld] = useState("");
   var [winner, newWinner] = useState(false);
   let winner1 = (a) => {
-    newOld(`THE WINNER IS "${a}"`);
+    newOld(`PLAYER "${a}"`);
 
     newWinner(true);
   };
-  let Xyz = () => {
+  let Celebrate = () => {
     if (winner) {
       return <Confetti width="1500" />;
     }
@@ -20,9 +20,9 @@ export default function App(props) {
 
   return (
     <div className="App">
-      <Xyz />
-
-      <h1 className="heading">{old}</h1>
+      <Celebrate />
+      <h1 className="heading1"> THE WINNER IS</h1>
+      <h1 className="heading2">{old}</h1>
 
       <Tic winner1={winner1} newOld={newOld} newWinner={newWinner} />
     </div>
