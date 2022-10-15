@@ -1,4 +1,10 @@
 # Deploy link (https://csb-lniujk.netlify.app/)
 
-![Home Pages](https://drive.google.com/file/d/1a7KapPTmBbCblSeKdKDW0Zo0r3IV79oc/view)
+---
+# Main Page
+![Home Pages](https://drive.google.com/uc?export=view&id=1gr2cPd66ik_u6YyNG5DGdUgJfhvmxXfM)
 
+
+---
+# After Win
+![Win Pages](https://drive.google.com/uc?export=view&id=1JoR8YJm-I7r8tyKE-xEUeuZBnZopnPUe)
