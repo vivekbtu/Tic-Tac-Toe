@@ -30,7 +30,7 @@ let Tic = (props) => {
         props.winner1(x[a]);
         x.fill(null);
 
-        setTimeout(()=>{
+        setTimeout(() => {
           restart();
         },10000)
         
