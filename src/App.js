@@ -11,6 +11,7 @@ export default function App(props) {
     newOld(`PLAYER "${a}"`);
     newWinner(true);
   };
+  
   let Celebrate = () => {
     if (winner) {
       return <Confetti width="1500" />;
